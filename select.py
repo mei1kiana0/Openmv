@@ -12,9 +12,9 @@ sensor.set_auto_whitebal(False)        # 关闭自动白平衡（避免颜色漂
 clock = time.clock()
 last_send_time = time.ticks_ms()  # 初始化上次发送时间为当前时间
 
-flag_R = 0;
-flag_G = 0;
-flag_B = 0;
+flag_R = 0
+flag_G = 0
+flag_B = 0
 
 uart = UART(1, 115200)
 while(True):  # 外部循环
